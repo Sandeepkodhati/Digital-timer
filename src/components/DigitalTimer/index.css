@@ -1,0 +1,119 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #defafe, #9df2d2);
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digital-timer-heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+.row-styling {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.time-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #00d9f5;
+  padding-bottom: 0px;
+}
+
+.time-description {
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.custom-icons {
+  height: 25px;
+  width: 30px;
+  padding-right: 10px;
+}
+
+.icons-description {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.set-timer-heading {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.custom-buttons {
+  font-size: 30px;
+  color: #1e293b;
+  font-weight: bold;
+  padding-right: 20px;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.count-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0f172a;
+  background-image: linear-gradient(to right, #00d9f5, #34ebae);
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 7px;
+  margin-right: 20px;
+}
+
+.styling {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  border-width: 0px;
+  background-color: transparent;
+  display: flex;
+}
